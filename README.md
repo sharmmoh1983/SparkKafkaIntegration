@@ -12,10 +12,13 @@ Now execute consumerSpark file then run producer
 
 Install kafka 
 cd /Users/mohitsharma/Downloads/kafka_2.11-1.1.0
- bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic fortune-cookie
- bin/zookeeper-server-start.sh config/zookeeper.properties 
- bin/kafka-server-start.sh config/server.properties 
-nano /tmp/my-test.txt
+
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic fortune-cookie
+
+bin/zookeeper-server-start.sh config/zookeeper.properties 
+
+bin/kafka-server-start.sh config/server.properties 
+
 nano /tmp/my-test.txt
 
 Copy paste :
