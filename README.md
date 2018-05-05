@@ -23,10 +23,10 @@ nano /tmp/my-test.txt
 
 Copy paste :
 
-1,2016-02-07 10:50:02,Smoke,Detected
-1,2016-02-07 10:51:02,Smoke,Detected
-1,2016-01-07 00:01:02,Smoke,Detected
-1,2016-01-07 00:01:02,Smoke,Detected
+1,2016-02-07 10:50:02,Smoke,Detected\n
+1,2016-02-07 10:51:02,Smoke,Detected\n
+1,2016-01-07 00:01:02,Smoke,Detected\n
+1,2016-01-07 00:01:02,Smoke,Detected\n
 1,2018-05-02 11:20:02,Temperature,Detected
 
 sh bin/connect-standalone.sh config/my-standalone.properties config/my-file-source.properties 
