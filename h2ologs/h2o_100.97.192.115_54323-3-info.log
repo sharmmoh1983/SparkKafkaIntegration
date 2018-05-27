@@ -1,0 +1,138 @@
+05-26 03:05:18.711 100.97.192.115:54323  691    #r thread INFO: ----- H2O started  -----
+05-26 03:05:18.722 100.97.192.115:54323  691    #r thread INFO: Build git branch: rel-ueno
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Build git hash: be9919e3b7d9e44cfaa126d3666daa67eda50f97
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Build git describe: jenkins-rel-ueno-2
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Build project version: 3.10.4.2 (latest version: 3.18.0.11)
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Build age: 1 year, 2 months and 7 days
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Built by: 'jenkins'
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Built on: '2017-03-18 13:04:00'
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: 
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: *** Your H2O version is too old! Please download the latest version 3.18.0.11 from http://h2o.ai/download/ ***
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: 
+05-26 03:05:18.723 100.97.192.115:54323  691    #r thread INFO: Processed H2O arguments: [-name, sparkling-water-mohitsharma_1495570742, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 100.97.192.115, -log_dir, /Users/mohitsharma/kafka/SparkKafkaIntegration/h2ologs]
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Java availableProcessors: 8
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Java heap totalMemory: 292.5 MB
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Java heap maxMemory: 3.56 GB
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Java version: Java 1.8.0_101 (from Oracle Corporation)
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: JVM launch parameters: [-Dfile.encoding=UTF-8, -Xbootclasspath/p:/Users/mohitsharma/Downloads/eclipse 2.app/Contents/Eclipse/plugins/org.scala-ide.scala211.jars_4.7.0.201709291351/target/jars/scala-library.jar:/Users/mohitsharma/Downloads/eclipse 2.app/Contents/Eclipse/plugins/org.scala-ide.scala211.jars_4.7.0.201709291351/target/jars/scala-reflect.jar]
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: OS version: Mac OS X 10.11 (x86_64)
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Machine physical memory: 16.00 GB
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: X-h2o-cluster-id: 1527267917111
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: User name: 'mohitsharma'
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Opted out of sending usage metrics.
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: IPv6 stack selected: false
+05-26 03:05:18.724 100.97.192.115:54323  691    #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:d4fd:fff:fe0a:d910%awdl0/name:awdl0 (awdl0)
+05-26 03:05:18.725 100.97.192.115:54323  691    #r thread INFO: Possible IP Address: en0 (en0), fe80:0:0:0:f65c:89ff:fecd:17c9%en0
+05-26 03:05:18.725 100.97.192.115:54323  691    #r thread INFO: Possible IP Address: en0 (en0), 100.97.192.115
+05-26 03:05:18.725 100.97.192.115:54323  691    #r thread INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+05-26 03:05:18.725 100.97.192.115:54323  691    #r thread INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1
+05-26 03:05:18.725 100.97.192.115:54323  691    #r thread INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+05-26 03:05:18.725 100.97.192.115:54323  691    #r thread INFO: H2O node running in unencrypted mode.
+05-26 03:05:18.728 100.97.192.115:54323  691    #r thread INFO: Internal communication uses port: 54324
+05-26 03:05:18.728 100.97.192.115:54323  691    #r thread INFO: Listening for HTTP and REST traffic on http://100.97.192.115:54323/
+05-26 03:05:18.765 100.97.192.115:54323  691    #r thread INFO: H2O cloud name: 'sparkling-water-mohitsharma_1495570742' on /100.97.192.115:54323, discovery address /238.51.255.202:60979
+05-26 03:05:18.765 100.97.192.115:54323  691    #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+05-26 03:05:18.765 100.97.192.115:54323  691    #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54323 mohitsharma@100.97.192.115'
+05-26 03:05:18.765 100.97.192.115:54323  691    #r thread INFO:   2. Point your browser to http://localhost:55555
+05-26 03:05:18.801 100.97.192.115:54323  691    #r thread INFO: Log dir: '/Users/mohitsharma/kafka/SparkKafkaIntegration/h2ologs'
+05-26 03:05:18.802 100.97.192.115:54323  691    #r thread INFO: Cur dir: '/Users/mohitsharma/kafka/SparkKafkaIntegration'
+05-26 03:05:18.809 100.97.192.115:54323  691    #r thread INFO: HDFS subsystem successfully initialized
+05-26 03:05:18.815 100.97.192.115:54323  691    #r thread INFO: S3 subsystem successfully initialized
+05-26 03:05:18.815 100.97.192.115:54323  691    #r thread INFO: Flow dir: '/Users/mohitsharma/h2oflows'
+05-26 03:05:18.826 100.97.192.115:54323  691    #r thread INFO: Cloud of size 1 formed [/100.97.192.115:54323]
+05-26 03:05:18.836 100.97.192.115:54323  691    #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, CSV]
+05-26 03:05:18.836 100.97.192.115:54323  691    #r thread INFO: Registered 0 extensions in: 0mS
+05-26 03:05:19.445 100.97.192.115:54323  691    #r thread INFO: Registered: 148 REST APIs in: 609mS
+05-26 03:05:19.445 100.97.192.115:54323  691    #r thread INFO: H2O started in 1614ms
+05-26 03:05:19.445 100.97.192.115:54323  691    #r thread INFO: 
+05-26 03:05:19.445 100.97.192.115:54323  691    #r thread INFO: Open H2O Flow in your web browser: http://100.97.192.115:54323
+05-26 03:05:19.445 100.97.192.115:54323  691    #r thread INFO: 
+05-26 03:05:28.507 100.97.192.115:54323  691    main      INFO: Registered: 219 schemas in 940ms
+05-26 03:05:38.645 100.97.192.115:54323  691    #09846-86 INFO: GET /, parms: {}
+05-26 03:05:38.686 100.97.192.115:54323  691    #09846-86 INFO: GET /flow/index.html, parms: {}
+05-26 03:05:38.687 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /flow/index.html via classloader sun.misc.Launcher$AppClassLoader@4554617c
+05-26 03:05:38.690 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /flow/index.html via classloader org.apache.spark.util.MutableURLClassLoader@758c6cae
+05-26 03:05:38.692 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /flow/index.html via classloader sun.misc.Launcher$AppClassLoader@4554617c
+05-26 03:05:38.693 100.97.192.115:54323  691    #09846-86 WARN: Resource not found: /flow/index.html
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /flow/index.html not found
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:651)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:865)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:431)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:285)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:220)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+05-26 03:05:38.698 100.97.192.115:54323  691    #09846-86 ERRR: 	at java.lang.Thread.run(Thread.java:745)
+05-26 03:05:38.699 100.97.192.115:54323  691    #09846-86 WARN: 
+05-26 03:05:38.699 100.97.192.115:54323  691    #09846-86 WARN: 
+05-26 03:05:38.699 100.97.192.115:54323  691    #09846-86 WARN: ERROR MESSAGE:
+05-26 03:05:38.699 100.97.192.115:54323  691    #09846-86 WARN: 
+05-26 03:05:38.699 100.97.192.115:54323  691    #09846-86 WARN: Resource /flow/index.html not found
+05-26 03:05:38.963 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /favicon.ico via classloader sun.misc.Launcher$AppClassLoader@4554617c
+05-26 03:05:38.972 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /favicon.ico via classloader sun.misc.Launcher$AppClassLoader@4554617c
+05-26 03:05:46.602 100.97.192.115:54323  691    #09846-86 INFO: GET /flow/index.html, parms: {}
+05-26 03:05:46.602 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /flow/index.html via classloader sun.misc.Launcher$AppClassLoader@4554617c
+05-26 03:05:46.605 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /flow/index.html via classloader org.apache.spark.util.MutableURLClassLoader@758c6cae
+05-26 03:05:46.606 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /flow/index.html via classloader sun.misc.Launcher$AppClassLoader@4554617c
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 WARN: Resource not found: /flow/index.html
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /flow/index.html not found
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:651)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:865)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:431)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:285)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:220)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+05-26 03:05:46.607 100.97.192.115:54323  691    #09846-86 ERRR: 	at java.lang.Thread.run(Thread.java:745)
+05-26 03:05:46.608 100.97.192.115:54323  691    #09846-86 WARN: 
+05-26 03:05:46.608 100.97.192.115:54323  691    #09846-86 WARN: 
+05-26 03:05:46.608 100.97.192.115:54323  691    #09846-86 WARN: ERROR MESSAGE:
+05-26 03:05:46.608 100.97.192.115:54323  691    #09846-86 WARN: 
+05-26 03:05:46.608 100.97.192.115:54323  691    #09846-86 WARN: Resource /flow/index.html not found
+05-26 03:05:46.649 100.97.192.115:54323  691    #09846-86 INFO: Trying to load resource /favicon.ico via classloader sun.misc.Launcher$AppClassLoader@4554617c

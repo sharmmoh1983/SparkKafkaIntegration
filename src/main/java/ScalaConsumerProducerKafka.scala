@@ -4,19 +4,11 @@ import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.streaming._
-import org.apache.hadoop.hbase.mapreduce.TableInputFormat
-import org.apache.hadoop.hbase.HBaseConfiguration
-import org.apache.hadoop.hbase.client.Result
-import org.apache.hadoop.hbase.io.ImmutableBytesWritable
-import org.apache.hadoop.hbase.client._
-import org.apache.hadoop.hbase.client.Result
-import org.apache.hadoop.hbase.util.Bytes
+
 
 import org.apache.kafka.clients.producer._
 import org.apache.spark.streaming.kafka.KafkaUtils
-import org.apache.hadoop.hbase.{ HBaseConfiguration, HTableDescriptor, HColumnDescriptor }
 import scala.reflect.io.Streamable.Bytes
-import org.apache.hadoop.hbase.mapreduce.TableOutputFormat
 import org.apache.spark.sql.ForeachWriter
 
 
@@ -29,20 +21,20 @@ class KafkaSink (topic:String, servers:String) extends ForeachWriter[org.apache.
    var producer : KafkaProducer[String,String] = _
     
    def open(partitionId: Long, version: Long) : Boolean ={
-      println("In open")
+     // println("In open")
        producer = new KafkaProducer(kafkaProperties)
         true
       
     }
    def process(value: org.apache.spark.sql.Row) : Unit ={ 
-      println(value.get(0))
-       println(value.get(1))
+   //   println(value.get(0))
+   //    println(value.get(1))
      producer.send(new ProducerRecord("fortune-cookie",value.get(0) +":"+ value.get(1)))
        println("In send")
         
   }
    def close(errorOrNull: Throwable) : Unit  = {
-    println("If block close")
+ //   println("If block close")
     producer.close()
     
   }
