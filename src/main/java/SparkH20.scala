@@ -10,7 +10,7 @@ import ai.h2o.automl.AutoMLBuildSpec
 import water.Key
 
 import org.apache.kafka.clients.producer._
-import org.apache.spark.streaming.kafka.KafkaUtils
+//import org.apache.spark.streaming.kafka.KafkaUtils
 import scala.reflect.io.Streamable.Bytes
 import org.apache.spark.sql.ForeachWriter
 
