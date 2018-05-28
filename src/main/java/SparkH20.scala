@@ -40,7 +40,7 @@ object SparkH20 {
          option("header","true").
          load("/Users/mohitsharma/Downloads/h2odata")           
      import org.apache.spark.h2o._
-    val h2oContext = H2OContext.getOrCreate(spark.sparkContext)
+    val h2oContext = H2OContext.getOrCreate(spark)
   spark.sparkContext.setLogLevel("ERROR")
   
   var splits = file_df.randomSplit(Array(0.8, 0.2), 1)
