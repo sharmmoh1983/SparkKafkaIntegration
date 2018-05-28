@@ -49,6 +49,8 @@ object ScalaConsumerProducerKafka {
     .appName("StreamLocallyExample")
     .config("spark.master", "local")
     .getOrCreate()
+    
+    println("test")
 
   spark.sparkContext.setLogLevel("ERROR")
   import spark.implicits._
@@ -60,6 +62,7 @@ object ScalaConsumerProducerKafka {
     .option("failOnDataLoss", false)
     .load()
     
+     println("test")
    
     val schema = StructType(Seq(StructField("id", StringType),
       StructField("dateTime", StringType),  StructField("Type", StringType), StructField("Message", StringType)))
@@ -75,7 +78,7 @@ object ScalaConsumerProducerKafka {
   select("id","dateTime","Type", "Message")
   
 
-
+ println("test")
   
   
   val counts = result.
@@ -85,7 +88,7 @@ object ScalaConsumerProducerKafka {
       
 val counterWriter = new KafkaSink("fortune-cookie","localhost:9092")
 
-  
+   println("test")
   val sq1 = counts.writeStream
   .format("json")
   .foreach(counterWriter)
@@ -93,7 +96,7 @@ val counterWriter = new KafkaSink("fortune-cookie","localhost:9092")
   .option("checkpointLocation", "/tmp/checkpoint")
   .start()
   
-  
+   println("test5")
 
   
   
@@ -103,6 +106,9 @@ val counterWriter = new KafkaSink("fortune-cookie","localhost:9092")
     .format("console")
     .start()
  query2.awaitTermination()
+ 
+ 
+  println("test6")
 
 /*  val query1: StreamingQuery =
   result.writeStream 
